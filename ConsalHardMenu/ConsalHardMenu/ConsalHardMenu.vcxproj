@@ -127,7 +127,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="binar_search.c" />
+    <ClCompile Include="bubble_sort.c" />
+    <ClCompile Include="compare_stats.c" />
+    <ClCompile Include="compare_stats1.c" />
+    <ClCompile Include="construct_menu.c" />
+    <ClCompile Include="counting_sort.c" />
+    <ClCompile Include="generate_mass_auto.c" />
+    <ClCompile Include="generate_mass_by_hand.c" />
+    <ClCompile Include="gener_mass_for_comps.c" />
     <ClCompile Include="hard_menu.c" />
+    <ClCompile Include="input.c" />
+    <ClCompile Include="insertion_sort.c" />
+    <ClCompile Include="just_search.c" />
+    <ClCompile Include="print_mass.c" />
+    <ClCompile Include="reb_mass.c" />
+    <ClCompile Include="shell_sort.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="functions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
